@@ -1,5 +1,7 @@
 //All automation commands for player
 
+object reference= var player= videojs.getPlayers().vjs_video_3;
+
 
 Automation commands
 
@@ -19,3 +21,6 @@ document.querySelector('.vjs-ima3-ad-container iframe')
 
 
 PT_BROWSER=edge PT_OS=“windows” PT_OS_VERSION=10 BROWSER_STACK_USERNAME=witmtn1 BROWSER_STACK_ACCESS_KEY=2joZuEHyWZcHe3Sdp7zE ANALYTICS_URL=http://127.0.0.1:9292/tracker SPEC=analytics npm test
+
+
+
