@@ -41,3 +41,6 @@ curl \
 
 
 
+curl --header "Content-Type: application/json" --user ssahu@brightcove.com --request PATCH --data '{        
+  "autoplay": true,
+}' https://players.api.brightcove.com/v2/accounts/5481942457001/players/default/configuration
