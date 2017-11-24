@@ -48,4 +48,15 @@ describe('test', () => {
     initPreview(player, iframe, refresh);
   });
 
-  
+  it('debug', () => {
+    var result = overlayCss();
+
+    expect(result).toBe('center');
+  });
+
+  //   it('more debug', () => {
+  //     var result = shouldShowDock();
+
+  //     expect(result).toBe('center');
+  //   });
+});
