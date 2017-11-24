@@ -14,3 +14,5 @@ JSON.stringify(volumeCheck, undefined, 2)
 
 
 document.querySelector('.vjs-ima3-ad-container iframe')
+
+//special for edge case
